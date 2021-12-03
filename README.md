@@ -21,8 +21,8 @@ Or install it yourself as:
 ## Usage
 
 
-'lib/lab_result_parser' directory and run 'ruby labortory_test_result.rb' from terminal (or ruby parser.rb)
+'lib/lab_result_parser' directory for models
 
-'rake tests' from root to run tests... 
+'rake test' from root to run tests... 
 
 

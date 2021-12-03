@@ -1,6 +1,9 @@
 require "test_helper"
 
+
+
 class ParserTest < Minitest::Test
+
 
   def test_lab_results_txt
     parser = LabResultParser::Parser.new('test/fixtures/lab_results.txt')

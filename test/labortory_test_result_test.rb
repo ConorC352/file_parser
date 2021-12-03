@@ -7,7 +7,7 @@ class LabortoryTestResultTest < Minitest::Test
       @lab_test_result = LabResultParser::LabortoryTestResult.new(prefix: 'OBX', id: '1', code: 'C800', result: 'POSITIVE', format: 'boolean', comment: 'Comment for...')
     end
   
-    describe "attribute test" do
+    describe "lab test result attribute test" do
       it "should contain a prefix" do
         assert_equal "OBX", @lab_test_result.prefix
       end
