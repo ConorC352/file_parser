@@ -4,7 +4,7 @@ module LabResultParser
 
     def initialize(prefix:, laboratory_test_result_id:, comment:)
       @prefix = prefix
-      @laboratory_test_comment_id = laboratory_test_result_id
+      @laboratory_test_result_id = laboratory_test_result_id
       @comment = comment
     end  
   end

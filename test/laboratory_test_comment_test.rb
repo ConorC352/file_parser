@@ -12,6 +12,10 @@ class LaboratoryTestCommentTest < Minitest::Test
         assert_equal "NTE", @lab_test_comment.prefix
       end
 
+      it "should contain a laboratory_test_result_id" do
+        assert_equal "2", @lab_test_comment.laboratory_test_result_id
+      end
+
       it "should contain comment attribute input" do
         assert_equal "Comment for C200 result", @lab_test_comment.comment
       end
