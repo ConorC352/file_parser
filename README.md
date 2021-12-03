@@ -20,9 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-Hi Rodrigo, 
 
-'lib/lab_result_parser' directory and run 'ruby labortory_test_result.rb' from terminal.
+'lib/lab_result_parser' directory and run 'ruby labortory_test_result.rb' from terminal (or ruby parser.rb)
 
 'rake tests' from root to run tests... 
 
