@@ -30,4 +30,11 @@ class ParserTest < Minitest::Test
     assert_equal 'A250', parser.mapped_results.first.code
     assert_equal 'NEGATIVE', parser.mapped_results.first.result
   end
+
+  def test_lab_comments_txt
+    parser = LabResultParser::Parser.new('test/fixtures/lab_comments.txt')
+    assert_equal parser.comments_mapped_results.first.class, LabResultParser::LaboratoryTestComment
+    assert_equal 'NTE', parser.comments_mapped_results.first.prefix
+    assert_equal 'Comment for C100 result', parser.comments_mapped_results.first.comment
+  end
 end
