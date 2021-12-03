@@ -1,10 +1,10 @@
 require "test_helper"
 
-class LabortoryTestResultTest < Minitest::Test
+class LaboratoryTestResultTest < Minitest::Test
 
-  describe LabResultParser::LabortoryTestResult do
+  describe LabResultParser::LaboratoryTestResult do
     before do
-      @lab_test_result = LabResultParser::LabortoryTestResult.new(prefix: 'OBX', id: '1', code: 'C800', result: 'POSITIVE', format: 'boolean', comment: 'Comment for...')
+      @lab_test_result = LabResultParser::LaboratoryTestResult.new(prefix: 'OBX', id: '1', code: 'C800', result: 'POSITIVE', format: 'boolean', comment: 'Comment for...')
     end
   
     describe "lab test result attribute test" do

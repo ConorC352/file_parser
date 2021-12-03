@@ -1,5 +1,5 @@
 module LabResultParser
-  class LabortoryTestResult
+  class LaboratoryTestResult
     attr_accessor :prefix, :id, :code, :result, :format, :comment
 
     def initialize(prefix:, id:, code:, result:, format:, comment:)

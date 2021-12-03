@@ -8,7 +8,7 @@ module LabResultParser
     def mapped_results
       @file.map do |line|
         result = line.split('|')
-        @lab_test_result = LabResultParser::LabortoryTestResult.new(prefix: result[0], id: result[1], code: result[2], result: result[3], format: result[4], comment: result[5])
+        @lab_test_result = LabResultParser::LaboratoryTestResult.new(prefix: result[0], id: result[1], code: result[2], result: result[3], format: result[4], comment: result[5])
       end
     end   
   end
