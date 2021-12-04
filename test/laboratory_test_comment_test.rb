@@ -7,7 +7,7 @@ class LaboratoryTestCommentTest < Minitest::Test
       @lab_test_comment = LabResultParser::LaboratoryTestComment.new(prefix: 'NTE', laboratory_test_result_id: '2', comment: 'Comment for C200 result')
     end
   
-    describe "lab test result attribute test" do
+    describe "lab test comment attribute test" do
       it "should contain a prefix" do
         assert_equal "NTE", @lab_test_comment.prefix
       end
