@@ -1,6 +1,6 @@
 NTE|1|Comment for C100 result|
 NTE|2|Comment for C200 result|
 NTE|3|Comment for NEGATIVE result|
-NTE|4|Comment 1 for ++ result|
-NTE|4|Comment 2 for ++ result|
+NTE|4|Comment 1 for -2.0 result|
+NTE|4|Comment 2 for -2.0 result|
 
