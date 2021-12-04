@@ -37,5 +37,8 @@ class ParserTest < Minitest::Test
     assert_equal 'NTE', parser.comments_mapped_results.first.prefix
     assert_equal '1', parser.comments_mapped_results.first.laboratory_test_result_id
     assert_equal 'Comment for C100 result', parser.comments_mapped_results.first.comment
+    assert_equal 'NTE', parser.comments_mapped_results[3].prefix
+    assert_equal '4', parser.comments_mapped_results[3].laboratory_test_result_id
+    assert_equal 'Comment 1 for ++ result', parser.comments_mapped_results[3].comment
   end
 end
