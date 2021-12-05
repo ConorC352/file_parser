@@ -1,6 +1,7 @@
 module LabResultParser
   class Parser
     attr_reader :file
+    
     def initialize(file_path)
       @file = File.readlines(file_path)
     end

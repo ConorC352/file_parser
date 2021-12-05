@@ -8,6 +8,7 @@ class LaboratoryTestCommentTest < Minitest::Test
     end
   
     describe "lab test comment attribute test" do
+
       it "should contain a prefix" do
         assert_equal "NTE", @lab_test_comment.prefix
       end

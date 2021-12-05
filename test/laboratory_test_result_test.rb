@@ -8,11 +8,11 @@ class LaboratoryTestResultTest < Minitest::Test
     end
   
     describe "lab test result attribute test" do
-      it "should contain a prefix" do
+      it "should contain the prefix" do
         assert_equal "OBX", @lab_test_result.prefix
       end
 
-      it "should contain an id" do
+      it "should contain the id" do
         assert_equal "1", @lab_test_result.id
       end
 
@@ -24,11 +24,11 @@ class LaboratoryTestResultTest < Minitest::Test
         assert_equal "POSITIVE", @lab_test_result.result
       end
 
-      it "should contain format" do
+      it "should contain the format" do
         assert_equal "boolean", @lab_test_result.format
       end
 
-      it "should contain comment attribute input" do
+      it "should contain comment the attribute input" do
         assert_equal "Comment for...", @lab_test_result.comment
       end
     end
