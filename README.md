@@ -1,6 +1,6 @@
 # FHM LabResultParser
 
-Application to read and parse a text file of lab results
+Application to read and parse a text file of lab results and comments
 
 ## Usage
 
